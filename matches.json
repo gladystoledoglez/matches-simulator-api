@@ -1,0 +1,19 @@
+[
+  {
+    "description": "Cup Play Offs 2022",
+    "local":{
+      "name": "Maracanã",
+      "image": "TODO"
+    },
+    "principal":{
+      "name": "Brasil",
+      "strength": 5,
+      "image": "TODO"
+    },
+    "visitor":{
+      "name": "Argentina",
+      "strength": 5,
+      "image": "TODO"
+    }
+  }
+]

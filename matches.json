@@ -15,5 +15,39 @@
       "stars": 5,
       "image": "https://www.bandeirasnacionais.com/data/flags/normal/ar.png"
     }
+  },
+  {
+    "description": "Cup Play Offs 2022",
+    "place":{
+      "name": "Estadio Centenario",
+      "image": "TODO"
+    },
+    "principal":{
+      "name": "Uruguay",
+      "stars": 4,
+      "image": "https://www.bandeirasnacionais.com/data/flags/normal/uy.png"
+    },
+    "visitor":{
+      "name": "Brasil",
+      "stars": 5,
+      "image": "https://www.bandeirasnacionais.com/data/flags/normal/br.png"
+    }
+  },
+  {
+    "description": "Cup Play Offs 2022",
+    "place":{
+      "name": "Maracanã",
+      "image": "TODO"
+    },
+    "principal":{
+      "name": "Brasil",
+      "stars": 5,
+      "image": "https://www.bandeirasnacionais.com/data/flags/normal/br.png"
+    },
+    "visitor":{
+      "name": "Colombia",
+      "stars": 3,
+      "image": "https://www.bandeirasnacionais.com/data/flags/normal/co.png"
+    }
   }
 ]

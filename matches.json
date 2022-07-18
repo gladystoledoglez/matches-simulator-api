@@ -3,7 +3,7 @@
     "description": "Cup Play Offs 2022",
     "place":{
       "name": "Maracanã",
-      "image": "TODO"
+      "image": "https://cdn.pixabay.com/photo/2016/03/29/17/07/maracana-1288818_1280.jpg"
     },
     "principal":{
       "name": "Brasil",
@@ -20,7 +20,7 @@
     "description": "Cup Play Offs 2022",
     "place":{
       "name": "Estadio Centenario",
-      "image": "TODO"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/98/Estadio_Centenario_2021.jpg"
     },
     "principal":{
       "name": "Uruguay",
@@ -37,7 +37,7 @@
     "description": "Cup Play Offs 2022",
     "place":{
       "name": "Maracanã",
-      "image": "TODO"
+      "image": "https://cdn.pixabay.com/photo/2016/03/29/17/07/maracana-1288818_1280.jpg"
     },
     "principal":{
       "name": "Brasil",

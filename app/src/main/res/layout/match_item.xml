@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="1dp"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/ivPrincipalTeamFlag"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <ImageView
+            android:id="@+id/ivVisitorTeamFlag"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/tvPrincipalTeamScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintBottom_toBottomOf="@+id/tvVersus"
+            app:layout_constraintEnd_toStartOf="@+id/tvVersus"
+            app:layout_constraintTop_toTopOf="@+id/tvVersus"
+            tools:text="2" />
+
+        <TextView
+            android:id="@+id/tvVersus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VS"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/ivVisitorTeamFlag"
+            app:layout_constraintStart_toEndOf="@+id/ivPrincipalTeamFlag"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvVisitorTeamScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            app:layout_constraintBottom_toBottomOf="@+id/tvVersus"
+            app:layout_constraintStart_toEndOf="@+id/tvVersus"
+            app:layout_constraintTop_toTopOf="@+id/tvVersus"
+            tools:text="0" />
+
+        <TextView
+            android:id="@+id/tvPrincipalTeamName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            app:layout_constraintEnd_toEndOf="@+id/ivPrincipalTeamFlag"
+            app:layout_constraintStart_toStartOf="@+id/ivPrincipalTeamFlag"
+            app:layout_constraintTop_toBottomOf="@+id/ivPrincipalTeamFlag"
+            tools:text="Brazil" />
+
+        <TextView
+            android:id="@+id/tvVisitorTeamName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            app:layout_constraintEnd_toEndOf="@+id/ivVisitorTeamFlag"
+            app:layout_constraintStart_toStartOf="@+id/ivVisitorTeamFlag"
+            app:layout_constraintTop_toBottomOf="@+id/ivVisitorTeamFlag"
+            tools:text="Argentina" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
